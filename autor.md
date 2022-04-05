@@ -2,9 +2,9 @@
 
 Preencha os dados abaixo para identificar a autoria do trabalho.
 
-- Nome: *\<__insira seu nome aqui__>*
-- Email: *\<insira seu email aqui>*
-- Turma: *\<insira sua turma aqui>*
+- Nome: *CAWAN PIMENTEL TAVARES*
+- Email: *tavarescawan6@gmail.com*
+- Turma: *LP1 - T03*
 
 # Questões Finalizadas
 
