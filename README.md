@@ -5,11 +5,11 @@
 
 Esse exercício tem por objetivos fazer você praticar sua habilidade de **interpretar especificações de problemas**, aliada a sua capacidade de **projetar** e **implementar algoritmos**.
 
-Além disso, o desenvolvimento desse trabalho oferecer uma oportunidade prática para utilizar elementos básicos de programação em C++, como laços, condicionais simples e composto, tipos de dados básicos e heterogêneos, expressões lógicas, passagem de parâmetros, criação de funções, leitura de escrita de informações a partir da entrada e saída padrão, dentre outros.
+Além disso, o desenvolvimento desse trabalho oferecer uma oportunidade prática para utilizar elementos básicos de programação em C++, como laços, condicionais simples e composto, tipo de dados básicos e heterogêneos, expressões lógicas, passagem de parâmetros, criação de funções, leitura de escrita de informações a partir da entrada e saída padrão, dentre outros.
 
 Adicionalmente, você deverá ter contato com alguns elementos da STL (_Standard Template Library_) do C++, mais especificamente o uso de _vetor dinâmico_ e _estático_, bem como alguns algoritmos básicos de manipulação de dados, dependendo das necessidades dos algoritmos que você projetar.
 
-# Suas Tarefas
+# Suas Tarefa
 
 As tarefas a serem implementadas correspondem a cada um dos diretórios neste repositório (exceto os diretórios `scripts` e `pics`) sendo elas:
 
