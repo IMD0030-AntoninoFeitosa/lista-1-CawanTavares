@@ -38,6 +38,8 @@ std::array <int,5> intervalo{0,0,0,0,0};
 	}
 	
 	for (int i = 0; i < SIZE; i++){
+		// cast incorreto, deveria ser o do padrão c++
+		// static_cast<float>(intervalo[i])
 	cout << setprecision ( 4 ) << (( float )intervalo[i]/( float )cont)* 100 << std::endl;
 	}
 	

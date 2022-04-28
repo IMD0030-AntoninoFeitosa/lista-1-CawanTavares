@@ -2,7 +2,7 @@
 using std::cout;
 using std::cin;
 using std::endl;
-int m = 0, n = 0, soma = 0; 
+int m = 0, n = 0, soma = 0; // não devem ser usadas variáveis globais
 int main(void)
 {
   setlocale (LC_ALL,"Portuguese");
@@ -12,7 +12,7 @@ int main(void)
   
   if (n == 0)
   {
-  	
+  	// faltou tratar esse caso
   }
   else if (n > 0)
   {	
