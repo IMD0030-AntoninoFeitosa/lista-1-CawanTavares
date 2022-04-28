@@ -1,21 +1,45 @@
-/*!
- * @brief This code implements the Intervalos programming problem
- * @author selan
- * @data June, 6th 2021
- */
-
 #include <iostream>
+#include <iomanip>
+#include <array>
 using std::cout;
 using std::cin;
 using std::endl;
-#include <iomanip>
 using std::setprecision;
 
-// Se desejar, crie funções aqui, antes do main().
-
-int main(void)
-{
-    // TODO: Adicione aqui a sua solução.
-
-    return 0;
+int main(void){
+int SIZE = 5;
+int x = 0;
+int cont = 0;  
+std::array <int,5> intervalo{0,0,0,0,0};
+	setlocale (LC_ALL,"Portuguese");
+    while( cin >> std::ws >> x) {
+     cont++; 
+	  //realização da contagem em relação aos intervalos
+     if (x >= 0 && x < 25)
+    	{
+    		 intervalo[0]++;
+        }
+	 else if(x>= 25 && x < 50)
+    	{
+    		 intervalo[1]++;
+    	}
+	 else if(x>= 50 && x < 75)
+      {
+    	 	 intervalo[2]++;
+ 	  }
+	 else if(x>= 75 && x < 100)
+      {
+    		 intervalo[3]++; 
+ 	  }
+	 else if(x < 0 || x >= 100)
+  	  {
+		 	 intervalo[4]++; 
+	  }
+	}
+	
+	for (int i = 0; i < SIZE; i++){
+	cout << setprecision ( 4 ) << (( float )intervalo[i]/( float )cont)* 100 << std::endl;
+	}
+	
+	return 0;
 }
